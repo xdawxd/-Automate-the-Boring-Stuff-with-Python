@@ -1,7 +1,7 @@
 import re
 
 
-def sstrip(text, characters=0):
+def re_strip(text, characters=0):
     '''
     None and 0: default strip spaces from LEFT and RIGHT
     1: strip LEFT spaces
@@ -18,4 +18,3 @@ def sstrip(text, characters=0):
     if characters == 2:
         text_regex = re.compile(r'\s+$', re.I | re.DOTALL)
         return text_regex.sub('', text)
-        
