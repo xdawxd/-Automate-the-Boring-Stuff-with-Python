@@ -3,7 +3,6 @@
 import json
 import requests
 import sys
-import pprint
 
 if len(sys.argv) < 2:
     print('Uzycie: weatherAPI.py lokalizacja')
