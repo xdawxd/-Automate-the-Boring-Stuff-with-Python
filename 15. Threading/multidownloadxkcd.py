@@ -10,14 +10,14 @@ os.makedirs('xkcd', exist_ok=True)
 
 def download_xkcd(startComic, endComic):
     for urlNumber in range(startComic, endComic):
-        # Pobranie strony.
+        # Downloading the website.
         print('Pobieranie strony https://xkcd.com/%s' % urlNumber)
         res = requests.get('https://xkcd.com/%s' % urlNumber)
         res.raise_for_status()
 
         soup = BeautifulSoup(res.text, features='lxml')
 
-        # Ustalenie adresu URL obrazu.
+        # Getting the img URL.
         comicElem = soup.select('#comic img')
         if comicElem == []:
             print('Nie udalo sie odnalesc obrazu.')
