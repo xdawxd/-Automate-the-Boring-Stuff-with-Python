@@ -9,7 +9,7 @@ if len(sys.argv) < 2:
     sys.exit()
 location = ' '.join(sys.argv[1:])
 
-url = 'http://api.openweathermap.org/data/2.5/forecast?q=%s&appid=8691c9e9ecc96acd0694b0760f069554&lang=pl' % location
+url = 'http://api.openweathermap.org/data/2.5/forecast?q=%s&appid={API_KEY}}&lang=pl' % location
 response = requests.get(url)
 response.raise_for_status()
 
