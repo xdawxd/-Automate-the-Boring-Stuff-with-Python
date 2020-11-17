@@ -36,13 +36,13 @@ def download_xkcd(startComic, endComic):
 
 
 # Making of and running threading objects.
-downloadThreads = []  # List of all thread
+threads = []
 for i in range(0, 1400, 100):  # Making 14 threads.
-    downloadThread = threading.Thread(target=download_xkcd, args=[i, i + 99])
-    downloadThreads.append(downloadThread)
-    downloadThread.start()
+    thread = threading.Thread(target=download_xkcd, args=[i, i + 99])
+    threads.append(thread)
+    threadhread.start()
 
 # Closing all threads.
-for downloadThread in downloadThreads:
-    downloadThread.join()
+for thread in threads:
+    thread.join()
 print('Gotowe!')
