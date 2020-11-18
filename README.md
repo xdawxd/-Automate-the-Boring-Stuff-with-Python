@@ -1,1 +1,1 @@
-### Projects from my journey with the book.
+### Some projects from my journey with the book.
