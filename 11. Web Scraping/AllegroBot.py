@@ -1,6 +1,9 @@
 #  AllegroBot.py - A quick Bot that searches for the items you want to buy :-)
 #  Adding a '-p' followed by a number filters items that cost less or the same.
 
+""" Kinda outdated but thats what I made while learning webscraping, for updated version visit my repo 'AllegroBot' """
+
+
 import sys
 import os
 import re

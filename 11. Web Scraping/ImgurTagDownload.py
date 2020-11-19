@@ -1,4 +1,4 @@
-#  imgur_tag_download.py - Downloads images from imgur by a provided tag. 
+#  ImgurTagDownload.py - Downloads images from imgur by a provided tag. 
 
 import os
 import requests

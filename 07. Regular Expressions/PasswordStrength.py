@@ -1,3 +1,5 @@
+# PasswordStrength.py - Program that checks your password strength.
+
 
 def strongPass(password):
     """

@@ -1,4 +1,4 @@
-# weatherAPI.py - Displays weather in the localization you passed inside a terminal.
+# WeatherAPI.py - Displays weather in the localization you passed inside a terminal.
 
 import json
 import requests

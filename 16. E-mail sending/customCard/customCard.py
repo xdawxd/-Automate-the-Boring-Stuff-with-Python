@@ -1,4 +1,4 @@
-# customCards.py
+# CustomCards.py
 
 import os
 from PIL import Image, ImageDraw, ImageFont

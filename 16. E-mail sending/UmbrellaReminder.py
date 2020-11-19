@@ -1,4 +1,4 @@
-# umbrella_reminder.py - program which updates you on weather and reminds when to take an umbrella with you.
+# UmbrellaReminder.py - program which updates you on weather and reminds when to take an umbrella with you.
 # You can add this file to the windows Task Scheduler or other to run it every day :)
 
 import smtplib

@@ -1,5 +1,5 @@
 #! python3
-#phoneAndEmail.py - Wyszukuje numery telefonow i adresy e-mail w schowki.
+# PhoneEmail.py - Wyszukuje numery telefonow i adresy e-mail w schowku.
 
 import pyperclip, re, os
 

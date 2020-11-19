@@ -1,4 +1,4 @@
-# space_fill.py - wypelnia przerwy pomiedzy nazwami plikow np. spam001.txt i spam003.txt
+# SpaceFill.py - wypelnia przerwy pomiedzy nazwami plikow np. spam001.txt i spam003.txt
 # tak aby byly w poprawniej kolejnosci tzn. spam001.txt ... spam002.txt
 
 def space_fill(path, extension):

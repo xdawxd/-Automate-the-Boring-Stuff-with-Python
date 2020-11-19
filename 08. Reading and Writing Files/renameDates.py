@@ -1,6 +1,6 @@
 import re, shutil, os
 
-# renameDates.py - Zamienia nazwe pliku wraz z data w formacie amerykanskim (MM-DD-RRRR)
+# RenameDates.py - Zamienia nazwe pliku wraz z data w formacie amerykanskim (MM-DD-RRRR)
 # na date w formacie europejskim (DD-MM-RRRR).
 
 datePattern = re.compile(r'''^(.*?) 

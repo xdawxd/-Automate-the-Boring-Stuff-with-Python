@@ -1,3 +1,5 @@
+# SearchingForRegex.py - program that uses a specified regex.
+
 import re, os
 
 #phone number regex

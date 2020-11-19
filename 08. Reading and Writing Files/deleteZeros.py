@@ -1,6 +1,6 @@
 import re, os, shutil
 
-# deleteZeros.py - Program usuwa zera z nazw pliku
+# DeleteZeros.py - Program usuwa zera z nazw pliku
 
 # Pattern na nazwe pliku zawierajaca zera
 filenamePattern = re.compile(r'''^(.*?)

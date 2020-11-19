@@ -1,4 +1,4 @@
-# stopwatch.py
+# StopWatch.py
 
 import time
 import pyperclip

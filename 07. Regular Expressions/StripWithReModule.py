@@ -1,3 +1,5 @@
+# StripWithReModule - .strip() function made with regular expressions.
+
 import re
 
 

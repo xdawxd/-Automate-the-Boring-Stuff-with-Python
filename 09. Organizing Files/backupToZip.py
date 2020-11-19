@@ -1,5 +1,4 @@
-
-# backupToZip.py - Katalog z cala zawartoscia zostaje umieszczony
+# BackupToZip.py - Katalog z cala zawartoscia zostaje umieszczony
 # w archiwum ZIP, ktorego nazwa jest inkrementowana za kazdym razem.
 
 import zipfile, os

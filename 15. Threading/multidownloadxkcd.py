@@ -1,4 +1,4 @@
-# multidownloadXkcd.py - Downloads comics from xkcd.com, with mutlithreading.
+# MultidownloadXkcd.py - Downloads comics from xkcd.com, with mutlithreading.
 
 import requests
 import os

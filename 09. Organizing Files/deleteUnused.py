@@ -1,4 +1,4 @@
-# deleteUnused.py - Usun nieuzywane pliki o wyznaczonych wielkosciach.
+# DeleteUnused.py - Usun nieuzywane pliki o wyznaczonych wielkosciach.
 
 import os, send2trash
 
