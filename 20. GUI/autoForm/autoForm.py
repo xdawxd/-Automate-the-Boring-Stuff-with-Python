@@ -17,11 +17,10 @@ field = {}
 try:
     while True:
         x, y = pyautogui.position()
-        pixelColor = pyautogui.screenshot().getpixel((x, y))
 
         if keyboard.is_pressed('space'):  # Press space to save the coordinates of your cursor.
             field[(x, y)] = pixelColor
-            print(f'x: {x}, y: {y}, RGB: ({pixelColor})')
+            print(f'x: {x}, y: {y}')
 except KeyboardInterrupt:
     print(field)
 """
